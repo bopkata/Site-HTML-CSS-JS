@@ -1,0 +1,73 @@
+.horizontal-header{
+	position: fixed;
+	height: 100px;
+	left: 0;
+	top: 0;
+	right:  0;
+	padding: 20px;
+
+}
+header h1{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	padding-top: 20px;
+
+}
+
+section{
+	/*height: calc(100% - 100px);*/
+	max-width:1200px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+section div p{
+	font-size: 25px;
+	margin-left: 320px;
+	
+}
+h2{
+	font-size: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.image-form{
+	width: 300px;
+}
+.pull-left{
+	float: left;
+}
+.clear-fix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.background-header{
+	background-image: url('../images/sea.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.background-section{
+	background-color: #eff6fc;
+}
+section a{
+	text-decoration: none;
+	
+}
+section a p {
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 40px;
+}
+.anim{
+	display: block;
+	width: 300px;
+	height: 300px;
+	transition: width 5s ease, height 5s ease;
+}
+.anim:hover{
+	width: 400px;
+	height: 400px;
+}
